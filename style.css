@@ -90,3 +90,26 @@ nav ul {
   align-items: center;
   text-align: center;
 }
+
+#locations {
+  min-height: 100vh;
+  background: linear-gradient(rgb(0, 0, 0, 0.5), transparent),
+    url(/img/new-york-page.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.locations-header {
+  width: 90%;
+  margin: auto;
+}
+
+.locations-header h2 {
+  padding: 1rem 0rem;
+}
+
+.locations-header h3 {
+  padding: 4rem 0rem;
+}
